@@ -1,0 +1,25 @@
+@import '../../../../App.scss';
+
+.card {
+    .cardContent {
+        .name {
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        .category {
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+
+    .cardAction {
+        justify-content: end;
+    }
+
+    @media screen and (min-width: $breakpoint-large) {
+        .cardContent {
+            height: 50px;
+        }
+    }
+}

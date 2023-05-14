@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert matches alert snapshot 1`] = `
+<div
+  className="alert"
+  data-testid="alert"
+>
+  No data found.
+</div>
+`;

@@ -1,0 +1,10 @@
+@import '../../../../App.scss';
+
+.alert {
+    display: flex;
+    position: relative;
+    top: 40px;
+    height: 60vh;
+    color: $white;
+    font-size: 20px;
+}

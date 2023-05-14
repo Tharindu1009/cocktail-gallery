@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextBox matches textBox snapshot 1`] = `
+<div
+  className="textBox"
+>
+  <div
+    className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root textBox css-wb57ya-MuiFormControl-root-MuiTextField-root"
+    data-testid="textBox"
+  >
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoComplete="off"
+        autoFocus={false}
+        className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+        disabled={false}
+        id="search"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Search for a cocktail"
+        required={false}
+        type="text"
+        value="ZENMEISTER"
+      />
+      <fieldset
+        aria-hidden={true}
+        className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="css-ihdtdm"
+        >
+          <span
+            className="notranslate"
+          >
+            ​
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches textBox snapshot 1`] = `
+<div
+  className="textBox"
+>
+  <div
+    className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root textBox css-wb57ya-MuiFormControl-root-MuiTextField-root"
+    data-testid="textBox"
+  >
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoComplete="off"
+        autoFocus={false}
+        className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+        disabled={false}
+        id="username"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Username"
+        required={false}
+        type="text"
+      />
+      <fieldset
+        aria-hidden={true}
+        className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="css-ihdtdm"
+        >
+          <span
+            className="notranslate"
+          >
+            ​
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;

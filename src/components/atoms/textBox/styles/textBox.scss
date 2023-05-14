@@ -1,0 +1,9 @@
+@import '../../../../App.scss';
+
+.textBox {
+    background-color: $white;
+    margin-right: 10px !important;
+    .MuiOutlinedInput-root {
+        border-radius: 0px !important;
+    }
+}

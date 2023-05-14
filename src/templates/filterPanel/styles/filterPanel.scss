@@ -1,0 +1,33 @@
+@import '../../../App.scss';
+
+.filterPanel {
+    background-color: $primary-background;
+
+    .filter-container {
+        padding: 20px 0px 20px 0px;
+    }
+
+    @media screen and (min-width: #{$breakpoint-small}) {
+        .refresh-container {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: #{$breakpoint-small}) {
+    .refresh-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+    .refresh-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: $breakpoint-large) {
+    .refresh-container {
+        justify-content: flex-end;
+    }
+}

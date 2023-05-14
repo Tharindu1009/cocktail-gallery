@@ -1,0 +1,32 @@
+@import '../../App.scss';
+
+.home {
+    background-color: $primary-background;
+
+    .container {
+        margin: 20px 100px 0px 100px;
+
+        .link-wrapper{
+            display: flex;
+            justify-content: end;
+            margin-bottom: 10px;
+
+            .link{
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media screen and (max-width: #{$breakpoint-small}) {
+        .container {
+            margin: 20px;
+        }
+    }
+}
+
+.loader{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    height: 100vh;
+}

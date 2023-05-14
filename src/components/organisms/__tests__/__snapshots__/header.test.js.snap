@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches alert snapshot 1`] = `
+<div
+  className="header"
+  data-testid="header"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6 title css-2ulfj5-MuiTypography-root"
+    onClick={[Function]}
+  >
+    Cocktail Gallery
+  </h6>
+</div>
+`;
+
+exports[`Header matches header snapshot 1`] = `
+<div
+  className="header"
+  data-testid="header"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6 title css-2ulfj5-MuiTypography-root"
+    data-testid="headerTitle"
+    onClick={[Function]}
+  >
+    Cocktail Gallery
+  </h6>
+</div>
+`;

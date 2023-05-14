@@ -1,0 +1,30 @@
+@import '../../App.scss';
+
+.favourites {
+    background-color: $primary-background;
+
+    .container {
+        margin: 20px 100px 0px 100px;
+
+        .title-panel {
+            background-color: $primary-background;
+        
+            .title-container {
+                display: flex;
+                padding: 20px 0px 20px 0px;
+                color: $white;
+
+                .back-icon{
+                    margin: 3px 15px 0px 0px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: #{$breakpoint-small}) {
+        .container {
+            margin: 20px;
+        }
+    }
+}
